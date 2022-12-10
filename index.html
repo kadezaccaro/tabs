@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="title">
+      <h1>About</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus
+        molestiae numquam nesciunt consectetur dolores temporibus dignissimos
+        sed repellat quibusdam asperiores, modi laboriosam, assumenda corrupti
+        adipisci repellendus exercitationem at dolorum voluptas?
+      </p>
+    </header>
+
+    <main>
+      <article class="about-img">
+        <img
+          src="https://images.unsplash.com/photo-1635570629103-24aab83312f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80"
+          alt="mountains"
+        />
+      </article>
+
+      <article class="about">
+        <div class="btn-container">
+          <button class="tab-btn active" data-id="history">history</button>
+          <button class="tab-btn" data-id="vision">vision</button>
+          <button class="tab-btn" data-id="goals">goals</button>
+        </div>
+
+        <div class="about-content">
+          <div class="content active" id="history">
+            <h2>History</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni
+              molestiae aut tenetur beatae, fugit eveniet!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Blanditiis pariatur nam fugit magni sequi impedit, saepe inventore
+              eaque error numquam quod tempora facilis dicta atque tempore
+              voluptas officia laborum eveniet.
+            </p>
+          </div>
+          <div class="content" id="vision">
+            <h2>Vision</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+              iste distinctio cumque quidem corrupti, delectus nam, quas
+              laudantium aliquid nobis impedit. Illum nemo corporis molestias
+              veritatis eaque, vel consequatur mollitia?
+            </p>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              reiciendis veniam quaerat expedita ut libero voluptatem eligendi
+              rem perferendis ratione!
+            </p>
+            <hr class="spacer" />
+            <ul>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem ipsum dolor sit amet.</li>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+          </div>
+          <div class="content" id="goals">
+            <h2>Goals</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+              iste distinctio cumque quidem corrupti, delectus nam, quas
+              laudantium aliquid nobis impedit. Illum nemo corporis molestias
+              veritatis eaque, vel consequatur mollitia?
+            </p>
+            <hr class="spacer" />
+            <ol>
+              <li>Lorem ipsum dolor sit amet consectetur.</li>
+              <li>Lorem ipsum dolor amet consectetur adipisicing.</li>
+              <li>Lorem ipsum dolor amet.</li>
+            </ol>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
